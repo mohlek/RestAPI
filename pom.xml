@@ -13,47 +13,6 @@
 		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>central</id>
-			<url>http://devrepo.ddg:8081/repository/maven-public/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>snapshots</id>
-			<url>http://devrepo.ddg:8081/repository/maven-public/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</repository>
-		<repository>
-			<id>pentaho-releases</id>
-			<url>http://devrepo.ddg:8081/repository/maven-public/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>central</id>
-			<url>http://devrepo.ddg:8081/repository/maven-public/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-		<pluginRepository>
-			<id>snapshots</id>
-			<url>http://devrepo.ddg:8081/repository/maven-public/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</pluginRepository>
-	</pluginRepositories>
-
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
